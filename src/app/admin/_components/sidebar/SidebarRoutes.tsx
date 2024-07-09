@@ -30,14 +30,14 @@ const adminRoutes = [
     href: "/admin",
   },
   {
-    icon: ListOrdered,
-    label: "Orders",
-    href: "/admin/orders",
-  },
-  {
     icon: ShoppingBasket,
     label: "Products",
     href: "/admin/products",
+  },
+  {
+    icon: ListOrdered,
+    label: "Orders",
+    href: "/admin/orders",
   },
   {
     icon: ScanQrCode,
