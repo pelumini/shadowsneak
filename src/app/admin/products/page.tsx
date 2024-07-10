@@ -1,7 +1,6 @@
+import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import React from "react";
-
 import { MoreHorizontal, UserIcon } from "lucide-react";
 import Image from "next/image";
 
@@ -12,8 +11,8 @@ const ProductsPage = () => {
     <div className="w-full flex flex-col gap-6">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">Products</h1>
-        <Button asChild className="flex items-center gap-x-2 bg-orange-600">
-          <Link href="/dashboard/products/create">
+        <Button asChild className="flex items-center gap-x-2 ">
+          <Link href="/admin/products/create">
             <span className="font-semibold">Add Product</span>
           </Link>
         </Button>
